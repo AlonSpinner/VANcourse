@@ -1,0 +1,3 @@
+[submodule "project/objectSLAM"]
+	path = project/objectSLAM
+	url = https://github.com/AlonSpinner/objectSLAM
