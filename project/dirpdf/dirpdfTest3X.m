@@ -15,15 +15,13 @@ ax.View = [55,42];
 beta = [1 1 1;
         1 2 1;
         1 3 2;
-        1 4 2;
-        1 5 2];
+        1 4 2;];
 
 for ii=1:size(beta,1)   
     for jj = 1:N
-        y(jj)=dirpdf(x(:,jj)',beta(ii,:));
+        y(jj)=dirpdf(x(:,ii)',beta(ii,:));
     end
     scatter3(x(1,:),x(2,:),x(3,:),5,y);
-    title(ax,sprintf('beta = [%d %d %d]',beta(ii,:)));
     drawnow;
     pause(1);
 end
