@@ -58,7 +58,7 @@ n = n_a;
 
 %Exclude any rows where sum x doesn't equal 1
 sum_x = sum(x,2);
-Badx1 = sum_x~=1;  %sum ~= 1
+Badx1 = abs(sum_x-1)>1e-10;  %sum ~= 1
 Badx2 = sum(x>1|x<0,2)>0; %row contains out of bound x
 Badx  = Badx1|Badx2;
 if sum(Badx)>0

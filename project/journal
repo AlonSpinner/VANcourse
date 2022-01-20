@@ -5,4 +5,13 @@ Probabilistic Data Association for Semantic SLAM with Loop Closure: https://www.
 DP https://www.youtube.com/watch?v=UTW530-QVxo&ab_channel=JordanBoyd-Graber
 
 Dirchle Distrubiton https://www.youtube.com/watch?v=_e0ugNro0Rc&ab_channel=5MinuteAI
+for matlab simulation: https://www.mathworks.com/matlabcentral/fileexchange/9700-random-vectors-with-fixed-sum
+
+Bayesian Nonparamterics: 
+	https://www.youtube.com/watch?v=dNeW5zoNJ7g&ab_channel=MaxPlanckInstituteforIntelligentSystems
+	https://www.youtube.com/watch?v=I7bgrZjoRhM&ab_channel=SimonsInstitute #better?
+
+HOW TO MAKE SIMULATION WORK:
+$ git clone --recursive https://github.com/AlonSpinner/objectSLAM 
+#if isam makes problems, clone it from github and rebuild.
 
