@@ -5,7 +5,7 @@ a=0; b=1;
 [x,v] = randfixedsum(n,N,s,a,b);
 y = zeros(N,1);
 
-fig=figure;
+fig=figure('color',[1,1,1]);
 ax=axes(fig); grid(ax,'on'); hold(ax,'on');
 xlabel(ax,'class1');
 ylabel(ax,'class2');

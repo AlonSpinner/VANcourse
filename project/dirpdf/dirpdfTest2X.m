@@ -10,11 +10,12 @@ hold(ax,'on');
 ax.View = [-39.2000   16.8000];
 
 beta = [1 1;
-        3 2
+        2 2
         3 3;
         4 4;
         5 5;
-        6 6];
+        6 6
+        100 100];
 y = zeros(1,N);
 
 vidWriter = VideoWriter('dirpdf2XExample','Motion JPEG AVI');
